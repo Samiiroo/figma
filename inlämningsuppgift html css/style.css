@@ -218,50 +218,71 @@ body{
     text-align: center;
     color: rgba(0, 0, 0, 0.6)
 }
+.bottom-section{
+    max-width: 1000px;
+}
 .box{
-    width: 334px;
-    height: 340px;
+    display: flex;
+    flex-direction: column;
+    min-width: 334px;
+    min-height: 340px;
+}
+.box h1{
+    margin:1rem;
+    font-family: var(--frank);
+    font-style: normal;
+    font-weight: 900;
+    font-size: 35px;
+    line-height: 100%;
+    letter-spacing: -0.02em;
+    color: rgba(0, 0, 0, 0.4);
+}
+.box p{
+    display: flex;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    font-family: var(--fira);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 20px;
 }
 
+
 .box-1{
+    width: 100%;
+    height: 100%;
     background-color: #C7DDEA;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
 }
 .box-2{
+    width: 100%;
+    height: 100%;
     background-color: var(--white);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
 }
 .box-3{
+    width: 100%;
+    height: 100%;
     background-color: #EBEBEB;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
+
 }
 .box-4{
+    width: 100%;
+    height: 100%;
     background-color: var(--white);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
+
 }
 .box-5{
+    width: 100%;
+    height: 100%;
     background-color:#F17949;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
+
 }
 .box-6{
+    width: 100%;
+    height: 100%;
     background-color: var(--white);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
+
 }
